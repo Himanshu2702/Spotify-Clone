@@ -1,0 +1,466 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+}
+
+#Home {
+    background-color: rgb(19, 19, 19);
+    height: 120px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+
+}
+
+#Home li {
+    list-style: none;
+    margin: 0px 0 0 15px;
+    padding: 8px;
+}
+
+.lib-ba {
+    text-decoration: none;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 16px;
+}
+
+.fa-brands {
+    font-size: 22px;
+}
+
+
+.lib-a {
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 18px;
+    margin: 20px 0 0 10px;
+    color: white;
+}
+
+.lib-b {
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 18px;
+    margin: 20px 0 0 10px;
+    color: grey;
+}
+
+/* ---------------------------------- */
+
+#Library {
+    background-color: rgb(19, 19, 19);
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+
+}
+
+.lib-1 {
+    font-size: 17px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.fa-lines-leaning {
+    margin: 20px 0 0 20px;
+}
+
+.fa-plus {
+    margin: 0 0 0 230px;
+}
+
+.lib-1 a {
+    color: rgb(182, 178, 178);
+    margin: 0 0 0 10px;
+}
+
+.btn {
+    margin: 20px 0 0 15px;
+}
+
+.playlist {
+    color: white;
+    background-color: rgb(69, 68, 68);
+    height: 28px;
+    width: 70px;
+    border-radius: 20px;
+    border: 0px;
+    font-family: "Gill Sans", sans-serif;
+
+
+}
+
+.Artists {
+    color: white;
+    background-color: rgb(69, 68, 68);
+    height: 28px;
+    width: 70px;
+    border-radius: 20px;
+    border: 0px;
+    margin: 0 0 0 6px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.srch {
+    margin: 22px 0 0 20px;
+}
+
+.srch span {
+    color: rgb(182, 178, 178);
+    margin: 0 0 0 280px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.arijit-img {
+    display: flex;
+    margin: 20px 0 0 15px;
+}
+
+.arijit-img img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.h4-1 h4 {
+    color: white;
+    margin: 6px 0 0 10px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.h4-1 span {
+    color: grey;
+    margin: 10px 0 0 10px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.arijit-img-1 {
+    display: flex;
+    margin: 20px 0 0 15px;
+}
+
+.arijit-img-1 img {
+    border-radius: 15%;
+    height: 50px;
+    width: 50px;
+
+}
+
+#left-sidebar {
+    display: flex;
+
+    width: 100%;
+    height: 642px;
+}
+
+/* -----------header------------ */
+
+#main-page {
+    background-color: rgb(19, 19, 19);
+    height: 630px;
+    width: 1107px;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+
+.header {
+    width: 1090px;
+    border-radius: 10px 10px 0 0;
+    height: 60px;
+    background-color: rgba(24, 23, 23, 0.822);
+    padding: 15px;
+    position: fixed;
+}
+
+.fa-circle-chevron-left {
+    font-size: 25px;
+    margin: 0 0 0 18px;
+}
+
+.Premium {
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    border: 0;
+    margin: 0 0 0 605px;
+}
+
+.Premium h5 {
+    font-size: 13px;
+}
+
+.install {
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    border: 0;
+    background-color: black
+}
+
+.install h5 {
+    font-size: 13px;
+    color: white;
+}
+
+.fa-bell {
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 20px;
+}
+
+.fa-circle-user {
+    font-size: 25px;
+    color: white;
+    margin: 0 0 0 10px;
+
+}
+
+.charts {
+    margin: 80px 0 0 0;
+    display: flex;
+}
+
+.charts h5 {
+    color: white;
+    font-size: 25px;
+    font-family: "Gill Sans", sans-serif;
+    margin: 0 0 0 28px;
+}
+
+.charts span {
+    color: grey;
+    margin: 10px 0 0 900px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+/* ------------------- */
+
+.albums {
+    display: flex;
+}
+
+.latest-tamil {
+    height: 250px;
+    width: 185px;
+    background-color: rgb(23, 22, 22);
+    margin: 25px 0 0 20px;
+    border-radius: 10px;
+
+}
+
+.latest-tamil img {
+    height: 155px;
+    width: 150px;
+    margin: 15px 0 0 15px;
+    border-radius: 10px;
+}
+
+.latest-tamil h3 {
+    color: white;
+    font-size: 17px;
+    margin: 10px 0 0 10px;
+    font-family: "Gill Sans", sans-serif;
+
+
+}
+
+.latest-tamil span {
+    color: grey;
+    margin: 50px 0 0 10px;
+    font-size: 14px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+/* -------------------- */
+
+.charts-1 {
+    margin: 30px 0 0 0;
+    display: flex;
+}
+
+.charts-1 h5 {
+    color: white;
+    font-size: 25px;
+    margin: 0 0 0 28px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.charts-1 span {
+    color: grey;
+    margin: 10px 0 0 795px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+
+/* ----------------------------------- */
+
+.info {
+    display: flex;
+}
+
+.info-1 {
+    margin: 50px 0 0 20px;
+}
+
+.info-2 {
+    margin: 50px 0 0 150px;
+}
+
+.info-1 h3 {
+    color: white;
+    margin: 0px 0 0 10px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.info-1 ul li {
+    color: grey;
+    margin: 10px 0 0 10px;
+    list-style: none;
+    font-family: "Gill Sans", sans-serif;
+
+
+}
+
+.info-2 h3 {
+    color: white;
+    margin: 0px 0 0 10px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.info-2 ul li {
+    color: grey;
+    margin: 10px 0 0 10px;
+    list-style: none;
+    font-family: "Gill Sans", sans-serif;
+
+
+}
+
+.socials {
+    color: white;
+    margin: 50px 0 0 270px;
+}
+
+.fa-twitter {
+    margin: 0 0 0 10px;
+
+}
+
+.fa-facebook {
+    margin: 0 0 0 10px;
+}
+
+.line {
+    color: grey;
+    width: 1040px;
+    margin: 40px 0 0 25px;
+    height: 1px;
+}
+
+.legal ul {
+    display: flex;
+}
+
+.legal {
+    display: flex;
+
+}
+
+.legal li {
+    color: grey;
+    margin: 60px 0 80px 25px;
+    list-style: none;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+.legal span {
+    color: grey;
+    margin: 60px 0 0 300px;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
+
+
+
+/* ---------------footer-------------- */
+
+.footer {
+    width: 100%;
+    height: 105px;
+    color: grey;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.fa-shuffle {
+    margin: 10px 0 0 640px;
+    font-size: 18px;
+}
+
+.fa-backward{
+    margin: 10px 0 0 10px;
+    font-size: 18px;
+}
+
+.fa-circle-pause {
+    margin: 10px 0 0 10px;
+    font-size: 30px;
+}
+
+.fa-forward{
+
+    margin: 10px 0 0 10px;
+    font-size: 18px;
+}
+
+.fa-repeat
+{
+    margin: 10px 0 0 10px;
+    font-size: 18px;
+}
+
+.fa-volume-high {
+    margin: 10px 0 0 530px;
+    font-size: 18px;
+}
+
+.line-1{
+    width: 500px;
+    height: 2px;
+    color: white;
+    margin: 15px 0 0 470px;
+}
+
+.line-2{
+    width: 100px;
+    height: 2px;
+    border-color: green;
+    margin: 0px 0 0 1380px;
+
+    
+}
